@@ -1,0 +1,22 @@
+com.example.AdvancedCalculator -> a:
+# {"fileName":"Calculator.kt","id":"sourceFile"}
+    61:61:void <init>() -> <init>
+    63:63:int power(int,int) -> a
+com.example.Calculator -> com.example.Calculator:
+# {"fileName":"Calculator.kt","id":"sourceFile"}
+    java.util.List history -> a
+    com.example.Helper helper -> b
+    3:5:void <init>() -> <init>
+    8:12:int add(int,int) -> add
+    16:20:int isubtract(int,int) -> a
+    23:23:int subtract(int,int) -> subtract
+    1016:1020:int isubtract(int,int):16:20 -> subtract
+    1016:1020:int subtract(int,int):23 -> subtract
+    28:32:int multiply(int,int) -> b
+    36:43:int divide(int,int) -> divide
+    47:47:java.util.List getHistory() -> getHistory
+    51:53:void clearHistory() -> clearHistory
+com.example.Helper -> b:
+# {"fileName":"Calculator.kt","id":"sourceFile"}
+    56:56:void <init>() -> <init>
+    58:59:void logOperation(java.lang.String) -> a
